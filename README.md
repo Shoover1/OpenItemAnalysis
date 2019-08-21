@@ -57,3 +57,4 @@ This function's output is a single .csv file containing each item number, associ
 **District Item Analysis - MS Access Interface Template**
 
 This is a download-able MS Access template that may be useful for user districts' item review process management. The template will be easiest to interact with if users first run the item analysis function on all selected assessments, then run the DIFCSVMerge function to consolidate item analysis files into one spreadsheet, and append the resulting consolidated file to the 'Item_Analysis_All_Assessments' table in the Access template. Process management will also be easier for user districts that can append a spreadsheet of asessment details to the 'Assessments' table (however, users could also enter records of each assessment one-by-one through the Enter New assessment button).
+
