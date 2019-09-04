@@ -24,8 +24,8 @@ The scripts included here presume the user district has already downloaded, clea
     
 User districts may wish to consult the included 'sample_student_response' and 'sample_student_demographics' files for a template to match their own files against (note: these are dummy files to demonstrate a template; all values were randomly generated). The introductory commentary for each script file also includes greater detail regarding the files required for analysis.
 
-# Script Overviews and Outputs
-This section details the file outputs for each R script included in this repository.
+# File Overviews and Outputs
+This section describes each file included in this repository, including the outputs associated with script files. District users unfamiliar with using R should scroll to the bottom of this readme for step-by-step instructions on setting up a computer to conduct item analysis using the files in this repository.
 
 **PPSItemAnalysis.R**
 
@@ -58,3 +58,11 @@ This function's output is a single .csv file containing each item number, associ
 
 This is a download-able MS Access template that may be useful for user districts' item review process management. The template will be easiest to interact with if users first run the item analysis function on all selected assessments, then run the DIFCSVMerge function to consolidate item analysis files into one spreadsheet, and append the resulting consolidated file to the 'Item_Analysis_All_Assessments' table in the Access template. Process management will also be easier for user districts that can append a spreadsheet of asessment details to the 'Assessments' table (however, users could also enter records of each assessment one-by-one through the Enter New assessment button).
 
+# How Do I Run These Files???
+
+For district users unfamiliar with the R programming language, the steps below should be helpful in setting up a computer to conduct item analysis using the scripts in this repository. These steps assume you have already prepared your assessment and student demographic data to match the sample file format and saved it in your Downloads directory, in addition to saving a 'Test_Details.csv' file in your Documents directory (match the format in the sample Test_Details file from this repository to avoid errors).
+
+   1. Visit https://www.r-project.org/ to download the correct version of R for your computer. This enables your computer to run R script files; however, most users do not use this download to actually write and interact with files. Think of it like installing a router in your home for connecting to the internet--it gives you the ability to use a wifi network, but you don't use the router itself to stream media and surf the web.
+   2. Visit https://www.rstudio.com/products/rstudio/download/ to download the latest version of RStudio. This is the interface most people use to write, edit, and run R script files. Think of this like the laptop or cell phone you might use to connect to the internet once your internet service is up and running. This is the program most users will use to run the script files included in this repository.
+   3. Download the PPSItemAnalysis.R file from this repository. 
+   4. Open RStudio and click File>>New File>>R Script (or pres Ctrl+Shift+N)
